@@ -1,0 +1,246 @@
+:root {
+  --main-color: #009688;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1490px) {
+  .container {
+    width: 1470px;
+  }
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+}
+aside {
+  flex-basis: 32.5%;
+  box-shadow: 0 0 10px 4px rgb(0 0 0 / 12%);
+  color: #757575;
+  background-color: white;
+  overflow: hidden;
+}
+aside .img {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+aside .img figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+aside .img img {
+  max-width: 100%;
+}
+aside .info {
+  padding: 0 20px;
+}
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+aside ul li {
+  padding: 10px 0;
+}
+aside ul li i {
+  margin-right: 20px;
+  color: var(--main-color);
+}
+
+hr {
+  height: 1px;
+  background-color: #ddd;
+  border: none;
+    */
+}
+
+aside .skills h4 {
+  font-size: 17px;
+  font-weight: bold;
+}
+aside .skills h4::before {
+  content: "\f621";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  color: var(--main-color);
+}
+aside .interest h4::before {
+  content: "\f118";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  color: var(--main-color);
+}
+aside .interest p.one::before {
+  content: "\f02d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 29px;
+  color: var(--main-color);
+}
+aside .interest p.tow::before {
+  content: "\f44b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  color: var(--main-color);
+}
+aside .interest p.three::before {
+  content: "\f072";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  color: var(--main-color);
+}
+aside .interest p.four::before {
+  content: "\f5c4";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  color: var(--main-color);
+}
+
+aside .prog {
+  height: 18px;
+  background-color: #eee;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+aside .prog div {
+  height: 100%;
+  background-color: var(--main-color);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+aside .lang .prog {
+  height: 25px;
+}
+
+aside .lang h4::before {
+  content: "\f57d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  color: var(--main-color);
+}
+main {
+  flex-basis: 66.3%;
+  overflow: hidden;
+  box-shadow: 0 0 10px 4px rgb(0 0 0 / 12%);
+}
+main article {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 10px 4px rgb(0 0 0 / 12%);
+}
+main article:first-child {
+  margin-bottom: 20px;
+}
+main article h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #757575;
+  margin: 0 0 40px 0;
+}
+main article h2::before {
+  content: "\f0f2";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  font-size: 35px;
+  color: var(--main-color);
+}
+
+main article:nth-child(2) h2::before {
+  content: "\f19d";
+}
+
+main article h3 {
+  color: #757575;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+main article h3 + p {
+  color: var(--main-color);
+}
+
+main article h3 + p::before {
+  content: "\f073";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  color: var(--main-color);
+}
+main article h3 span {
+  background-color: var(--main-color);
+  color: white;
+  padding: 3px 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+main article p + p {
+  margin: 20px 0;
+  line-height: 25px;
+}
+
+main article h4 {
+  font-size: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  color: #181717;
+}
+footer {
+  background-color: var(--main-color);
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
+footer p a {
+  color: white;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  aside {
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+  }
+  main article h2 {
+    font-size: 25px;
+    margin: 0 0 30px 0;
+  }
+}
